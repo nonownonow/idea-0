@@ -1,4 +1,4 @@
-import{j as i}from"./jsx-runtime-2xDJh5tt.js";import"./index-CBqU2yxZ.js";import"./_commonjsHelpers-BosuxZz1.js";const g=function(){return i("div",{children:"ENTRY"})},R={component:g,tags:["autodocs"]},e={args:{Root:"h1",$value:"Hello <em>world</em>"}},o={args:{Root:"p",$value:"Hello <em>world</em>"}},r={args:{Root:"h1",$value:"Hello <em>world</em>",$valueFormat:a=>`My ${a}`}};var s,t,l;e.parameters={...e.parameters,docs:{...(s=e.parameters)==null?void 0:s.docs,source:{originalSource:`{
+import{j as i}from"./jsx-runtime-2xDJh5tt.js";import"./index-CBqU2yxZ.js";import"./_commonjsHelpers-BosuxZz1.js";const g=function(){return i("div",{children:"ENTRY2"})},R={component:g,tags:["autodocs"]},e={args:{Root:"h1",$value:"Hello <em>world</em>"}},o={args:{Root:"p",$value:"Hello <em>world</em>"}},r={args:{Root:"h1",$value:"Hello <em>world</em>",$valueFormat:a=>`My ${a}`}};var s,t,l;e.parameters={...e.parameters,docs:{...(s=e.parameters)==null?void 0:s.docs,source:{originalSource:`{
   args: {
     Root: "h1",
     $value: "Hello <em>world</em>"
