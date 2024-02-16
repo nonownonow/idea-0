@@ -1,0 +1,11 @@
+import{j as p}from"./jsx-runtime-2xDJh5tt.js";import{r as R}from"./index-CBqU2yxZ.js";import{V as E,i as A}from"./VALUE-alYwS84T.js";import"./_commonjsHelpers-BosuxZz1.js";const m=R.forwardRef(function(o,C){const{$array:F,Array:$="div",Item:_="div",$itemFormat:v=A,...D}=o;return p($,{"data-idea-array":"",...D,ref:C,children:F.map((I,s)=>p(E,{"data-idea-item":s,Value:_,$value:I,$valueFormat:P=>v(P,s)},s))})});try{m.displayName="ARRAY",m.__docgenInfo={description:"배열의 구조를 구현한 [고차컴포넌트](https://blog.naver.com/one-in-me/223356121427)",displayName:"ARRAY",props:{}}}catch{}const c={format0:A,format1:(r,o)=>o===1?`Oh My ${r}`:`My ${r}`,format2:r=>String(r)},b={$array:["hello","world"],Array:"div",Item:"div"},w={$array:["a","d","d",1,!0,!1],Array:"ul",Item:"li"},x={$array:["d",1,!0,!1],$itemFormat:c.format1},j={component:m,tags:["autodocs"],argTypes:{$array:{description:"배열 데이터 <a href='/?path=/docs/type--docs#valuedata'><code>ValueData[]</code></a>"},$itemFormat:{description:"값의 포멧을 적용하는 함수 <a href = 'http://localhost:6006/?path=/docs/array-controller--docs#format0' target='_blank'>Formatter 세부 구현</a>[```Formatter```](/?path=/docs/type--docs#formatter)",options:Object.keys(c),mapping:c,control:{type:"select",labels:{format0:"default"}}},Item:{description:"Array의 다형성을 구현하는 [콜백컴포넌트](https://blog.naver.com/one-in-me/223356121427) ```ElementType```"},Array:{description:"```ElementType```"}}},a={args:{...b,$itemFormat:"format0"}},t={args:w},e={args:x};var n,i,d;a.parameters={...a.parameters,docs:{...(n=a.parameters)==null?void 0:n.docs,source:{originalSource:`{
+  args: {
+    ...defaultProps,
+    // @ts-ignore
+    $itemFormat: "format0"
+  }
+}`,...(d=(i=a.parameters)==null?void 0:i.docs)==null?void 0:d.source}}};var l,u,y;t.parameters={...t.parameters,docs:{...(l=t.parameters)==null?void 0:l.docs,source:{originalSource:`{
+  args: polymorphicProps
+}`,...(y=(u=t.parameters)==null?void 0:u.docs)==null?void 0:y.source}}};var f,h,g;e.parameters={...e.parameters,docs:{...(f=e.parameters)==null?void 0:f.docs,source:{originalSource:`{
+  args: withItemFormatProps
+}`,...(g=(h=e.parameters)==null?void 0:h.docs)==null?void 0:g.source}}};const O=["Default","Polymorphic","WithItemFormat"];export{a as Default,t as Polymorphic,e as WithItemFormat,O as __namedExportsOrder,j as default};
